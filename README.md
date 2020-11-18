@@ -20,8 +20,12 @@ $ npm install passport-mendeley
 
 Before using `passport-mendeley`, you must register an application with Mendeley. If you have not already done so, a new project can be created using [Mendeley's developer tools](https://dev.mendeley.com/myapps.html). Once registered, your application will be issued a client ID and client secret, which need to be provided to the strategy. You will also need to configure a redirect URI which matches the route in your application. The client secret is generated when by clicking  `Generate Secret` on register and the client ID will be avaliable after registering in the ID column of `My Applications`
 
+
+##### Registering 
 ![registering](./assets/registering.png)
-![my-application](./assets/my-application.png)
+
+##### Application Data 
+![my-application](./assets/my-applications.png)
 
 
 #### Configure Strategy
